@@ -17,7 +17,18 @@ describe Yelpi::Configuration do
   end
 
   it "must return a token secret" do
-    Yelpi.token.should eql Yelpi::Configuration::TOKEN_SECRET
+    Yelpi.token_secret.should eql Yelpi::Configuration::TOKEN_SECRET
+  end
+
+  describe '.configure' do
+    Yelpi::Configuration::VALID_CONFIG_KEYS.each do |key|
+      it "should set the #{key}" do 
+        Yelpi.configure do |config|
+          config.send("#{key}=", key)
+          Yelpi.send(key).should eql key
+        end
+      end
+    end
   end
 
 end
