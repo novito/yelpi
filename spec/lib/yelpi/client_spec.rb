@@ -4,8 +4,13 @@ require_relative '../../spec_helper'
  
 describe Yelpi::Client do
  
-  it "must work" do
-    "Yay!".should be_kind_of(String)
+  describe 'set instance variable from configuration' do
+    before(:each) do
+      @client = Yelpi::Client.new
+    end
+    it "must have an accessible endpoint variable" do
+      @client.endpoint.should eq Yelpi::Configuration::ENDPOINT
+    end
   end
  
 end
