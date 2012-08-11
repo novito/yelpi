@@ -1,7 +1,7 @@
 require "httparty"
-Dir[File.dirname(__FILE__) + '/yelpi/*.rb'].each do |file|
-  require file
-end
+require 'yelpi/configuration'
+require 'yelpi/client'
+require 'yelpi/local_businesses'
 
 module Yelpi
   extend Configuration
