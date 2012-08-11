@@ -9,6 +9,7 @@ describe Yelpi::Client do
       @client = Yelpi::Client.new
     end
     it "must have an accessible endpoint variable" do
+      puts @client.inspect
       @client.endpoint.should eq Yelpi::Configuration::ENDPOINT
     end
   end

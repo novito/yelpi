@@ -26,5 +26,10 @@ module Yelpi
       yield self
     end
 
+    # Return the configuration values set in this module
+    def options
+      Hash[ * VALID_CONFIG_KEYS.map { |key| [key, send(key)] }.flatten ]
+    end
+
   end
 end
