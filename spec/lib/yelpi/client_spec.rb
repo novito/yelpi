@@ -9,8 +9,26 @@ describe Yelpi::Client do
       @client = Yelpi::Client.new
     end
     it "must have an accessible endpoint variable" do
-      puts @client.inspect
       @client.endpoint.should eq Yelpi::Configuration::ENDPOINT
+    end
+    it "must have an accessible consumer key" do
+      @client.consumer_key.should eq Yelpi::Configuration::CONSUMER_KEY
+    end
+    it "must have an accessible consumer secret" do
+      @client.consumer_secret.should eq Yelpi::Configuration::CONSUMER_SECRET
+    end
+    it "must have an accessible token" do
+      @client.token.should eq Yelpi::Configuration::TOKEN
+    end
+    it "must have an accessible token" do
+      @client.token_secret.should eq Yelpi::Configuration::TOKEN_SECRET
+    end
+  end
+
+  describe "set oauth-consumer if credentials are correct" do
+    it "must have an oauth-consumer " do
+      @client = Yelpi::Client.new
+      puts @client.consumer.inspect 
     end
   end
  

@@ -1,6 +1,6 @@
 module Yelpi
   module Configuration
-    ENDPOINT = 'https://api.yelp.com' 
+    ENDPOINT = 'http://api.yelp.com' 
     CONSUMER_KEY = 'zeUN39MhQwBCAON4gsji-g'
     CONSUMER_SECRET = 'kpOWMWFmxt0xVdE2Qfhsc---q8M'
     TOKEN = '7RIJttUGVq6-OD3mvqXbFWjSAOICXPwX'

@@ -1,6 +1,7 @@
 source :rubygems
  
 gem 'httparty'
+gem 'oauth'
  
 group :test do
   gem 'rspec'
