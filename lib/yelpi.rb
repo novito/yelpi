@@ -1,7 +1,7 @@
 require "httparty"
 require 'yelpi/configuration'
 require 'yelpi/client'
-require 'yelpi/local_businesses'
+require 'yelpi/search'
 
 module Yelpi
   extend Configuration

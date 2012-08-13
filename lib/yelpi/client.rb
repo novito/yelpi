@@ -1,4 +1,5 @@
 require 'oauth'
+require 'httparty'
 
 module Yelpi
   class Client 
