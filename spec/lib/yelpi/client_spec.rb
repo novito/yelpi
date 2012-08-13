@@ -25,10 +25,17 @@ describe Yelpi::Client do
     end
   end
 
-  describe "set oauth-consumer if credentials are correct" do
-    it "must have an oauth-consumer " do
+  describe "set oauth-consumer" do
+    it "must have a valid oauth-consumer when credentials exist" do
       @client = Yelpi::Client.new
-      puts @client.consumer.inspect 
+      @client.consumer.should_not be_nil
+    end
+  end
+  
+  describe "set oauth-access-token" do
+    it "must have a valid acces token when credentials exist" do
+      @client = Yelpi::Client.new
+      @client.access_token.should_not be_nil
     end
   end
  
