@@ -52,6 +52,19 @@ module Yelpi
       end
     end
 
+    def by_location(options = {})
+      if options.has_key?(:location)
+	if options.has_key?(:latitude) && options.has_key?(:longitude)
+	  geo_params = "#{options.delete(:latitude).to_s},#{options.delete(:longitude).to_s}" 
+	  options.merge!({:cll => geo_params})
+	  url_params = parametrize(options)
+	  results = @client.access_token.get(Yelpi::Search.base_url + "?" + url_params).body
+	  return JSON.parse(results)
+	end
+      else
+	nil
+      end
+    end
 
     private
 

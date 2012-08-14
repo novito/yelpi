@@ -29,7 +29,23 @@ describe Yelpi::Search do
   it "should accept location by geographic coordinate" do
     latitude = 37.788022
     longitude = -122.399797 
-    @search.by_geo_coordinate({:latitude => latitude, :longitude => longitude})
+    results = @search.by_geo_coordinate({:latitude => latitude, :longitude => longitude})
+    results.should_not be_nil
+  end
+
+  it "should accept location by geographic coordinate" do
+    latitude = 37.788022
+    longitude = -122.399797 
+    results = @search.by_geo_coordinate({:latitude => latitude, :longitude => longitude})
+    results.should_not be_nil
+  end
+
+  it "should accept location by location string and latitude/longitude" do
+    location = 'Castro, San Francisco'
+    latitude = 37.7627
+    longitude = 122.4352
+    results =  @search.by_location({:location => location, :latitude => latitude, :longitude => longitude})
+    results.should_not be_nil
   end
 
 end
