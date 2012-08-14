@@ -23,8 +23,13 @@ describe Yelpi::Search do
     sw_longitude = -122.500000
     ne_latitude = 37.788022
     ne_longitude = -122.399797
-    show = @search.by_bounding_box(sw_latitude,sw_longitude,ne_latitude,ne_longitude,{:term => 'restaurants'})
-    puts show["region"]
+    @search.by_bounding_box({:sw_latitude => sw_latitude,:sw_longitude => sw_longitude,:ne_latitude => ne_latitude, :ne_longitude => ne_longitude, :term => 'restaurants'})
+  end
+
+  it "should accept location by geographic coordinate" do
+    latitude = 37.788022
+    longitude = -122.399797 
+    @search.by_geo_coordinate({:latitude => latitude, :longitude => longitude})
   end
 
 end
