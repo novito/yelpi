@@ -14,8 +14,7 @@ describe Yelpi::Search do
 
   it "should be able to retrieve business by a term" do
     term = 'restaurants'
-    location = 'San Francisco'
-    results = @search.fetch({:term => term, :location => location})
+    results = @search.fetch({:term => term})
   end
 
   it "should accept geolocation parameters" do
