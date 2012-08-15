@@ -7,12 +7,7 @@ module Yelpi
       @client = client
     end
 
-    def fetch(options = {})
-      url_params = parametrize(options)
-      results = @client.access_token.get(BASE_URL + "?" + url_params).body
-      return JSON.parse(results)
-    end
-
+    # Make request within a geo-point bounding box
     def by_bounding_box(options = {} )
       if options.has_key?(:sw_latitude) && options.has_key?(:sw_longitude) && options.has_key?(:ne_latitude) && options.has_key?(:ne_longitude) 
 	box_params = "#{options.delete(:sw_latitude).to_s},#{options.delete(:sw_longitude).to_s}|#{options.delete(:ne_latitude).to_s},#{options.delete(:ne_longitude).to_s}"
@@ -21,10 +16,11 @@ module Yelpi
 	results = @client.access_token.get(BASE_URL + "?" + url_params).body
 	return JSON.parse(results)
       else
-	raise ArgumentError "The following arguments are mandatory: :sw_latitude, :sw_longitude, :ne_latitude, :ne_longitude"
+	raise ArgumentError.new "The following arguments are mandatory: :sw_latitude, :sw_longitude, :ne_latitude, :ne_longitude"
       end
     end
 
+    # Make request with latitude and longitude 
     def by_geo_coordinate(options = {})
       if options.has_key?(:latitude) && options.has_key?(:longitude)
 	geo_params = "#{options.delete(:latitude).to_s},#{options.delete(:longitude).to_s}"
@@ -43,10 +39,12 @@ module Yelpi
       results = @client.access_token.get(BASE_URL + "?" + url_params).body
       return JSON.parse(results)
       else
-	raise ArgumentError "The following arguments are mandatory: :latitude, :longitude"
+	raise ArgumentError.new "The following arguments are mandatory: :latitude, :longitude"
       end
     end
 
+
+    # Make request by location 
     def by_location(options = {})
       if options.has_key?(:location)
 	if options.has_key?(:latitude) && options.has_key?(:longitude)
@@ -57,7 +55,7 @@ module Yelpi
 	  return JSON.parse(results)
 	end
       else
-	raise ArgumentError "The following arguments is mandatory: :location"
+	raise ArgumentError.new "The following arguments is mandatory: :location"
       end
     end
 
