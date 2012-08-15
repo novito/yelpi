@@ -12,9 +12,9 @@ http_interactions:
       User-Agent:
       - OAuth gem v0.4.6
       Authorization:
-      - OAuth oauth_consumer_key="zeUN39MhQwBCAON4gsji-g", oauth_nonce="YrdPUXHb7qivy2TYniIe2fAgl3YYyXQWKy13B9GZX6I",
-        oauth_signature="kVGGpdvC1oiyzoGc2F7xB64P4HQ%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1344978729", oauth_token="7RIJttUGVq6-OD3mvqXbFWjSAOICXPwX",
+      - OAuth oauth_consumer_key="zeUN39MhQwBCAON4gsji-g", oauth_nonce="pkI76sSNCjBo3kGZwDbQdQgiDAVwhRYOFg3KnOFLP4",
+        oauth_signature="4t7cMAmhbr8Rqe3ewd0FhG4PiJo%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1344988531", oauth_token="7RIJttUGVq6-OD3mvqXbFWjSAOICXPwX",
         oauth_version="1.0"
   response:
     status:
@@ -22,15 +22,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 14 Aug 2012 21:12:09 GMT
+      - Tue, 14 Aug 2012 23:55:31 GMT
       Server:
       - Apache
       X-Node:
-      - web39, wsgi, api_com
+      - web27, wsgi, api_com
       Cache-Control:
       - private
       Set-Cookie:
-      - bse=33dbd3302d8857dbbe707c4bfd07d601; Path=/; HttpOnly
+      - bse=6243bf5b9cfe460a40302346b33d07f1; Path=/; HttpOnly
       Content-Length:
       - '28903'
       Vary:
@@ -42,7 +42,7 @@ http_interactions:
       X-Mode:
       - rw
       X-Proxied:
-      - lb2
+      - lb1
     body:
       encoding: US-ASCII
       string: ! '{"region":{"span":{"latitude_delta":0.050131069999991951,"longitude_delta":0.10234119491968841},"center":{"latitude":37.783058850000003,"longitude":-122.43515817503649}},"total":4445,"businesses":[{"is_claimed":true,"rating":4.5,"mobile_url":"http://m.yelp.com/biz/gary-danko-san-francisco","rating_img_url":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/stars_4_half.png","review_count":3045,"name":"Gary
@@ -59,7 +59,7 @@ http_interactions:
         St & Union St","city":"San Francisco","display_address":["2316 Polk St","(b/t
         Green St & Union St)","Russian Hill","San Francisco, CA 94109"],"geo_accuracy":8,"neighborhoods":["Russian
         Hill","Nob Hill"],"postal_code":"94109","country_code":"US","address":["2316
-        Polk St"],"coordinate":{"latitude":37.7974192,"longitude":-122.4221977},"state_code":"CA"}},{"is_claimed":false,"rating":4.5,"mobile_url":"http://m.yelp.com/biz/the-house-san-francisco","rating_img_url":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/stars_4_half.png","review_count":2244,"name":"The
+        Polk St"],"coordinate":{"latitude":37.7974192,"longitude":-122.4221977},"state_code":"CA"}},{"is_claimed":false,"rating":4.5,"mobile_url":"http://m.yelp.com/biz/the-house-san-francisco","rating_img_url":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/stars_4_half.png","review_count":2245,"name":"The
         House","snippet_image_url":"http://s3-media1.ak.yelpcdn.com/photo/cfXfHw9dVkgAmFtGL81fJA/ms.jpg","rating_img_url_small":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/stars_small_4_half.png","url":"http://www.yelp.com/biz/the-house-san-francisco","phone":"4159868612","snippet_text":"Thank
         you Yelpers, all your reviews are great and so true!\n\nThe House was amazing.
         Although it is small, they have a small selection but a very good...","image_url":"http://s3-media1.ak.yelpcdn.com/bphoto/Qo-eoz8T9K0FqmEcEOndrA/ms.jpg","categories":[["Asian
@@ -94,7 +94,7 @@ http_interactions:
         St & Battery St","city":"San Francisco","display_address":["200 Jackson St","(b/t
         Front St & Battery St)","Financial District","San Francisco, CA 94111"],"geo_accuracy":8,"neighborhoods":["Financial
         District"],"postal_code":"94111","country_code":"US","address":["200 Jackson
-        St"],"coordinate":{"latitude":37.7970191,"longitude":-122.39951790000001},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/r-and-g-lounge-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":2056,"name":"R
+        St"],"coordinate":{"latitude":37.7970191,"longitude":-122.39951790000001},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/r-and-g-lounge-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":2057,"name":"R
         & G Lounge","snippet_image_url":"http://s3-media2.ak.yelpcdn.com/photo/Dwp3gKE62-TZOFLQ4hK4mw/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/r-and-g-lounge-san-francisco","phone":"4159827877","snippet_text":"R&G
         is always a good choice because of the food. I''ve veen here with local friends,
         with parents, and with out-of-town visitors - and the food is dependably...","image_url":"http://s3-media3.ak.yelpcdn.com/bphoto/XOz1bFjXZiWrtVS9EMlNew/ms.jpg","categories":[["Chinese","chinese"],["Lounges","lounges"]],"display_phone":"+1-415-982-7877","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"r-and-g-lounge-san-francisco","is_closed":false,"location":{"cross_streets":"Commercial
@@ -120,7 +120,7 @@ http_interactions:
         St & Taylor St","city":"San Francisco","display_address":["545 Francisco St","(b/t
         Mason St & Taylor St)","North Beach/Telegraph Hill","San Francisco, CA 94133"],"geo_accuracy":8,"neighborhoods":["North
         Beach/Telegraph Hill"],"postal_code":"94133","country_code":"US","address":["545
-        Francisco St"],"coordinate":{"latitude":37.804425999999999,"longitude":-122.41411600000001},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/quince-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":813,"name":"Quince","snippet_image_url":"http://s3-media1.ak.yelpcdn.com/photo/EqMBMMRu4k7MoXwsAvUfyw/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/quince-san-francisco","phone":"4157758500","snippet_text":"Took
+        Francisco St"],"coordinate":{"latitude":37.804425999999999,"longitude":-122.41411600000001},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/quince-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":814,"name":"Quince","snippet_image_url":"http://s3-media1.ak.yelpcdn.com/photo/EqMBMMRu4k7MoXwsAvUfyw/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/quince-san-francisco","phone":"4157758500","snippet_text":"Took
         my family here for my mom''s birthday.  This place did not disappoint.  All
         our dishes were superb!  I love love loved the foie gras!  The terrine had...","image_url":"http://s3-media2.ak.yelpcdn.com/bphoto/TooNL9Jh9-dxDwG-FB0rPw/ms.jpg","categories":[["Italian","italian"],["Mediterranean","mediterranean"]],"display_phone":"+1-415-775-8500","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"quince-san-francisco","is_closed":false,"location":{"cross_streets":"Osgood
         Pl & Montgomery St","city":"San Francisco","display_address":["470 Pacific
@@ -132,53 +132,53 @@ http_interactions:
         (New)","newamerican"],["Champagne Bars","champagne_bars"]],"display_phone":"+1-415-861-5555","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"jardiniere-san-francisco","is_closed":false,"location":{"cross_streets":"Franklin
         St & Gough St","city":"San Francisco","display_address":["300 Grove St","(b/t
         Franklin St & Gough St)","Hayes Valley","San Francisco, CA 94102"],"geo_accuracy":8,"neighborhoods":["Hayes
-        Valley"],"postal_code":"94102","country_code":"US","address":["300 Grove St"],"coordinate":{"latitude":37.778184000000003,"longitude":-122.421775},"state_code":"CA"}},{"is_claimed":false,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/fleur-de-lys-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":950,"name":"Fleur
-        De Lys","snippet_image_url":"http://s3-media2.ak.yelpcdn.com/photo/LcVR_Ea09ndUnAWaUYSgow/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/fleur-de-lys-san-francisco","phone":"4156737779","snippet_text":"Probably
-        the best meal I have ever had.  We went here for my mother''s 55th birthday
-        and it totally lived up to my (lofty) expectations.\n\nOpted for the...","image_url":"http://s3-media1.ak.yelpcdn.com/bphoto/nPgK0QPRxjq6a5jSOrieKg/ms.jpg","categories":[["French","french"]],"display_phone":"+1-415-673-7779","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"fleur-de-lys-san-francisco","is_closed":false,"location":{"cross_streets":"Taylor
-        St & Jones St","city":"San Francisco","display_address":["777 Sutter St","(b/t
-        Taylor St & Jones St)","San Francisco, CA 94109"],"geo_accuracy":8,"postal_code":"94109","country_code":"US","address":["777
-        Sutter St"],"coordinate":{"latitude":37.788632499999999,"longitude":-122.4131375},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/han-il-kwan-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":657,"name":"Han
+        Valley"],"postal_code":"94102","country_code":"US","address":["300 Grove St"],"coordinate":{"latitude":37.778184000000003,"longitude":-122.421775},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/han-il-kwan-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":657,"name":"Han
         Il Kwan","snippet_image_url":"http://s3-media4.ak.yelpcdn.com/photo/gwlh13oYQcyandeRkqNPAg/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/han-il-kwan-san-francisco","phone":"4157524447","snippet_text":"Sooo
         much foood. This is getting five stars for the lunch specials. For dinner
         it would only get 4 because it''s really expensive ($20 for bulgogi) but...","image_url":"http://s3-media2.ak.yelpcdn.com/bphoto/r7wzh4g-x7RowxRlF91UZg/ms.jpg","categories":[["Korean","korean"]],"display_phone":"+1-415-752-4447","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"han-il-kwan-san-francisco","is_closed":false,"location":{"cross_streets":"19th
         Ave & 20th Ave","city":"San Francisco","display_address":["1802 Balboa St","(b/t
         19th Ave & 20th Ave)","Outer Richmond","San Francisco, CA 94121"],"geo_accuracy":8,"neighborhoods":["Outer
         Richmond"],"postal_code":"94121","country_code":"US","address":["1802 Balboa
-        St"],"coordinate":{"latitude":37.776715799999998,"longitude":-122.47831239999999},"state_code":"CA"}},{"is_claimed":true,"rating":4.5,"mobile_url":"http://m.yelp.com/biz/lavash-san-francisco","rating_img_url":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/stars_4_half.png","review_count":616,"name":"Lavash","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/XgqQIHL292p0KrNdBdcv4A/ms.jpg","rating_img_url_small":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/stars_small_4_half.png","url":"http://www.yelp.com/biz/lavash-san-francisco","phone":"4156645555","snippet_text":"I
+        St"],"coordinate":{"latitude":37.776715799999998,"longitude":-122.47831239999999},"state_code":"CA"}},{"is_claimed":false,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/fleur-de-lys-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":950,"name":"Fleur
+        De Lys","snippet_image_url":"http://s3-media2.ak.yelpcdn.com/photo/LcVR_Ea09ndUnAWaUYSgow/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/fleur-de-lys-san-francisco","phone":"4156737779","snippet_text":"Probably
+        the best meal I have ever had.  We went here for my mother''s 55th birthday
+        and it totally lived up to my (lofty) expectations.\n\nOpted for the...","image_url":"http://s3-media1.ak.yelpcdn.com/bphoto/nPgK0QPRxjq6a5jSOrieKg/ms.jpg","categories":[["French","french"]],"display_phone":"+1-415-673-7779","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"fleur-de-lys-san-francisco","is_closed":false,"location":{"cross_streets":"Taylor
+        St & Jones St","city":"San Francisco","display_address":["777 Sutter St","(b/t
+        Taylor St & Jones St)","San Francisco, CA 94109"],"geo_accuracy":8,"postal_code":"94109","country_code":"US","address":["777
+        Sutter St"],"coordinate":{"latitude":37.788632499999999,"longitude":-122.4131375},"state_code":"CA"}},{"is_claimed":true,"rating":4.5,"mobile_url":"http://m.yelp.com/biz/l-ardoise-bistro-san-francisco","rating_img_url":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/stars_4_half.png","review_count":638,"name":"L''ardoise
+        Bistro","snippet_image_url":"http://s3-media1.ak.yelpcdn.com/photo/O1LbNLVWNY5PiZGbZESLtA/ms.jpg","rating_img_url_small":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/stars_small_4_half.png","url":"http://www.yelp.com/biz/l-ardoise-bistro-san-francisco","phone":"4154372600","snippet_text":"There
+        comes a time when you write enough of these things that you find you''ve placed
+        an establishment so high on a pedestal that it''s impossible to...","image_url":"http://s3-media1.ak.yelpcdn.com/bphoto/KnKluJQ1Q7RzuAobhLwTNw/ms.jpg","categories":[["French","french"],["Steakhouses","steak"]],"display_phone":"+1-415-437-2600","rating_img_url_large":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/stars_large_4_half.png","id":"l-ardoise-bistro-san-francisco","is_closed":false,"location":{"cross_streets":"15th
+        St & Henry St","city":"San Francisco","display_address":["151 Noe St","(b/t
+        15th St & Henry St)","Castro","San Francisco, CA 94114"],"geo_accuracy":8,"neighborhoods":["Castro"],"postal_code":"94114","country_code":"US","address":["151
+        Noe St"],"coordinate":{"latitude":37.766661200000001,"longitude":-122.4333118},"state_code":"CA"}},{"is_claimed":true,"rating":4.5,"mobile_url":"http://m.yelp.com/biz/lavash-san-francisco","rating_img_url":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/stars_4_half.png","review_count":616,"name":"Lavash","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/XgqQIHL292p0KrNdBdcv4A/ms.jpg","rating_img_url_small":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/stars_small_4_half.png","url":"http://www.yelp.com/biz/lavash-san-francisco","phone":"4156645555","snippet_text":"I
         lived a block away from Lavash for more than two years and never stopped in
         for dinner.\n\nWhat a mistake that was.\n\nI ate here a few weeks ago and
         had one...","image_url":"http://s3-media4.ak.yelpcdn.com/bphoto/F6eDTVCkXo-1YBo29RIPrw/ms.jpg","categories":[["Persian/Iranian","persian"]],"display_phone":"+1-415-664-5555","rating_img_url_large":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/stars_large_4_half.png","id":"lavash-san-francisco","is_closed":false,"location":{"cross_streets":"6th
         Ave & 7th Ave","city":"San Francisco","display_address":["511 Irving St","(b/t
         6th Ave & 7th Ave)","Inner Sunset","San Francisco, CA 94122"],"geo_accuracy":8,"neighborhoods":["Inner
         Sunset"],"postal_code":"94122","country_code":"US","address":["511 Irving
-        St"],"coordinate":{"latitude":37.7640745,"longitude":-122.46346939999999},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/masas-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":479,"name":"Masa''s","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/oAlr0hFYByXuZfvND-wZlg/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/masas-san-francisco","phone":"4159897154","snippet_text":"Having
-        dined at all the great restaurants in the Bay Area, I don''t know how Masa''s
-        escaped me. So unassuming, it''s the kind of place that you tuck away in...","image_url":"http://s3-media1.ak.yelpcdn.com/bphoto/pGimT4fIoHRaRekBmE74Fw/ms.jpg","categories":[["French","french"]],"display_phone":"+1-415-989-7154","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"masas-san-francisco","is_closed":false,"location":{"cross_streets":"Chelsea
-        Pl & Powell St","city":"San Francisco","display_address":["648 Bush St","(b/t
-        Chelsea Pl & Powell St)","Union Square","San Francisco, CA 94108"],"geo_accuracy":8,"neighborhoods":["Union
-        Square"],"postal_code":"94108","country_code":"US","address":["648 Bush St"],"coordinate":{"latitude":37.7903381,"longitude":-122.4080379},"state_code":"CA"}},{"is_claimed":true,"rating":4.5,"mobile_url":"http://m.yelp.com/biz/l-ardoise-bistro-san-francisco","rating_img_url":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/stars_4_half.png","review_count":638,"name":"L''ardoise
-        Bistro","snippet_image_url":"http://s3-media1.ak.yelpcdn.com/photo/O1LbNLVWNY5PiZGbZESLtA/ms.jpg","rating_img_url_small":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/stars_small_4_half.png","url":"http://www.yelp.com/biz/l-ardoise-bistro-san-francisco","phone":"4154372600","snippet_text":"There
-        comes a time when you write enough of these things that you find you''ve placed
-        an establishment so high on a pedestal that it''s impossible to...","image_url":"http://s3-media1.ak.yelpcdn.com/bphoto/KnKluJQ1Q7RzuAobhLwTNw/ms.jpg","categories":[["French","french"],["Steakhouses","steak"]],"display_phone":"+1-415-437-2600","rating_img_url_large":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/stars_large_4_half.png","id":"l-ardoise-bistro-san-francisco","is_closed":false,"location":{"cross_streets":"15th
-        St & Henry St","city":"San Francisco","display_address":["151 Noe St","(b/t
-        15th St & Henry St)","Castro","San Francisco, CA 94114"],"geo_accuracy":8,"neighborhoods":["Castro"],"postal_code":"94114","country_code":"US","address":["151
-        Noe St"],"coordinate":{"latitude":37.766661200000001,"longitude":-122.4333118},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/millennium-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":1179,"name":"Millennium","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/WsE_i4evlnRnNWO7aWkjSg/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/millennium-san-francisco","phone":"4153453900","snippet_text":"My
-        absolute new favorite restaurant! The food is so delicious! I went just last
-        Thursday for my birthday (the milestone 50th...which, by the way, is the new...","image_url":"http://s3-media3.ak.yelpcdn.com/bphoto/_Kt01zAkzGDjSphy7W3qOA/ms.jpg","categories":[["Vegetarian","vegetarian"],["Vegan","vegan"]],"display_phone":"+1-415-345-3900","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"millennium-san-francisco","is_closed":false,"location":{"cross_streets":"Jones
-        St & Shannon St","city":"San Francisco","display_address":["580 Geary St","(b/t
-        Jones St & Shannon St)","Civic Center/Tenderloin","San Francisco, CA 94102"],"geo_accuracy":8,"neighborhoods":["Civic
-        Center/Tenderloin"],"postal_code":"94102","country_code":"US","address":["580
-        Geary St"],"coordinate":{"latitude":37.786777700000002,"longitude":-122.4129307},"state_code":"CA"}},{"is_claimed":false,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/delancey-street-restaurant-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":724,"name":"Delancey
+        St"],"coordinate":{"latitude":37.7640745,"longitude":-122.46346939999999},"state_code":"CA"}},{"is_claimed":false,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/delancey-street-restaurant-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":724,"name":"Delancey
         Street Restaurant","snippet_image_url":"http://s3-media4.ak.yelpcdn.com/photo/mh_qaXprIbJiv_ATvZHg1g/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/delancey-street-restaurant-san-francisco","phone":"4155125179","snippet_text":"Review
         for lunch/brunch.  Simple, no nonsense food...omelettes, sandwiches, salads,
         etc.  Ordered the roast beef sandwich but was told there was no roast...","image_url":"http://s3-media2.ak.yelpcdn.com/bphoto/r9zcmBVyjVNk8XbiVs6w4Q/ms.jpg","categories":[["American
         (Traditional)","tradamerican"],["Breakfast & Brunch","breakfast_brunch"]],"display_phone":"+1-415-512-5179","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"delancey-street-restaurant-san-francisco","is_closed":false,"location":{"city":"San
         Francisco","display_address":["600 Embarcadero St","SOMA","San Francisco,
         CA 94107"],"geo_accuracy":9,"neighborhoods":["SOMA"],"postal_code":"94107","country_code":"US","address":["600
-        Embarcadero St"],"coordinate":{"latitude":37.783774022457003,"longitude":-122.388639450073},"state_code":"CA"}}]}'
+        Embarcadero St"],"coordinate":{"latitude":37.783774022457003,"longitude":-122.388639450073},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/masas-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":479,"name":"Masa''s","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/oAlr0hFYByXuZfvND-wZlg/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/masas-san-francisco","phone":"4159897154","snippet_text":"Having
+        dined at all the great restaurants in the Bay Area, I don''t know how Masa''s
+        escaped me. So unassuming, it''s the kind of place that you tuck away in...","image_url":"http://s3-media1.ak.yelpcdn.com/bphoto/pGimT4fIoHRaRekBmE74Fw/ms.jpg","categories":[["French","french"]],"display_phone":"+1-415-989-7154","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"masas-san-francisco","is_closed":false,"location":{"cross_streets":"Chelsea
+        Pl & Powell St","city":"San Francisco","display_address":["648 Bush St","(b/t
+        Chelsea Pl & Powell St)","Union Square","San Francisco, CA 94108"],"geo_accuracy":8,"neighborhoods":["Union
+        Square"],"postal_code":"94108","country_code":"US","address":["648 Bush St"],"coordinate":{"latitude":37.7903381,"longitude":-122.4080379},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/millennium-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":1179,"name":"Millennium","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/WsE_i4evlnRnNWO7aWkjSg/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/millennium-san-francisco","phone":"4153453900","snippet_text":"My
+        absolute new favorite restaurant! The food is so delicious! I went just last
+        Thursday for my birthday (the milestone 50th...which, by the way, is the new...","image_url":"http://s3-media3.ak.yelpcdn.com/bphoto/_Kt01zAkzGDjSphy7W3qOA/ms.jpg","categories":[["Vegetarian","vegetarian"],["Vegan","vegan"]],"display_phone":"+1-415-345-3900","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"millennium-san-francisco","is_closed":false,"location":{"cross_streets":"Jones
+        St & Shannon St","city":"San Francisco","display_address":["580 Geary St","(b/t
+        Jones St & Shannon St)","Civic Center/Tenderloin","San Francisco, CA 94102"],"geo_accuracy":8,"neighborhoods":["Civic
+        Center/Tenderloin"],"postal_code":"94102","country_code":"US","address":["580
+        Geary St"],"coordinate":{"latitude":37.786777700000002,"longitude":-122.4129307},"state_code":"CA"}}]}'
     http_version: 
-  recorded_at: Tue, 14 Aug 2012 21:12:09 GMT
+  recorded_at: Tue, 14 Aug 2012 23:55:31 GMT
 - request:
     method: get
     uri: http://api.yelp.com/v2/search?bounds=37.9,-122.5%7C37.788022,-122.399797&term=restaurants
@@ -191,9 +191,9 @@ http_interactions:
       User-Agent:
       - OAuth gem v0.4.6
       Authorization:
-      - OAuth oauth_consumer_key="zeUN39MhQwBCAON4gsji-g", oauth_nonce="KAjjqYSEDlsh1QExPbCQaa11QDQ6zH1SHb50dkiqzmg",
-        oauth_signature="AXLd2eyhf7siYq5Y9F1LUNp7rKs%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1344978729", oauth_token="7RIJttUGVq6-OD3mvqXbFWjSAOICXPwX",
+      - OAuth oauth_consumer_key="zeUN39MhQwBCAON4gsji-g", oauth_nonce="sVWL0axxeUFzYPwRbVU2NswiIezGe9f8BGopHa7o",
+        oauth_signature="cOqO4OjQAK56wY4NotoscCr%2FAhw%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1344988531", oauth_token="7RIJttUGVq6-OD3mvqXbFWjSAOICXPwX",
         oauth_version="1.0"
   response:
     status:
@@ -201,17 +201,17 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 14 Aug 2012 21:12:09 GMT
+      - Tue, 14 Aug 2012 23:55:31 GMT
       Server:
       - Apache
       X-Node:
-      - web40, wsgi, api_com
+      - web41, wsgi, api_com
       Cache-Control:
       - private
       Set-Cookie:
-      - bse=e6953792872cb8d692784425b53de746; Path=/; HttpOnly
+      - bse=696dfdc3b93a39dbce5184f71f0bb9a2; Path=/; HttpOnly
       Content-Length:
-      - '28762'
+      - '28718'
       Vary:
       - User-Agent
       Connection:
@@ -221,17 +221,24 @@ http_interactions:
       X-Mode:
       - rw
       X-Proxied:
-      - lb2
+      - lb1
     body:
       encoding: US-ASCII
-      string: ! '{"region":{"span":{"latitude_delta":0.11197800000000058,"longitude_delta":0.10020299999999338},"center":{"latitude":37.844010999999995,"longitude":-122.4498985}},"total":1179,"businesses":[{"is_claimed":true,"rating":4.5,"mobile_url":"http://m.yelp.com/biz/gary-danko-san-francisco","rating_img_url":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/stars_4_half.png","review_count":3045,"name":"Gary
+      string: ! '{"region":{"span":{"latitude_delta":0.11197800000000058,"longitude_delta":0.10020299999999338},"center":{"latitude":37.844010999999995,"longitude":-122.4498985}},"total":1180,"businesses":[{"is_claimed":true,"rating":4.5,"mobile_url":"http://m.yelp.com/biz/gary-danko-san-francisco","rating_img_url":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/stars_4_half.png","review_count":3045,"name":"Gary
         Danko","snippet_image_url":"http://s3-media4.ak.yelpcdn.com/photo/k9ypeKMi5HBii38JhuYp1g/ms.jpg","rating_img_url_small":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/stars_small_4_half.png","url":"http://www.yelp.com/biz/gary-danko-san-francisco","phone":"4157492060","snippet_text":"My
         bf took me hear to celebrate my birthday and I loved it! The food was beyond
         amazing. The staff (David was our server) was friendly, accomodating and...","image_url":"http://s3-media2.ak.yelpcdn.com/bphoto/lansxaYjxNSWAEuDSUl-NA/ms.jpg","categories":[["American
         (New)","newamerican"]],"display_phone":"+1-415-749-2060","rating_img_url_large":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/stars_large_4_half.png","id":"gary-danko-san-francisco","is_closed":false,"location":{"city":"San
         Francisco","display_address":["800 N Point St","Fisherman''s Wharf","San Francisco,
         CA 94109"],"geo_accuracy":8,"neighborhoods":["Fisherman''s Wharf"],"postal_code":"94109","country_code":"US","address":["800
-        N Point St"],"coordinate":{"latitude":37.805845699999999,"longitude":-122.4205645},"state_code":"CA"}},{"is_claimed":false,"rating":4.5,"mobile_url":"http://m.yelp.com/biz/the-house-san-francisco","rating_img_url":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/stars_4_half.png","review_count":2244,"name":"The
+        N Point St"],"coordinate":{"latitude":37.805845699999999,"longitude":-122.4205645},"state_code":"CA"}},{"is_claimed":true,"rating":4.5,"mobile_url":"http://m.yelp.com/biz/la-folie-san-francisco","rating_img_url":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/stars_4_half.png","review_count":848,"name":"La
+        Folie","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/iHyXGcKKmTPWAqr2I4gV1w/ms.jpg","rating_img_url_small":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/stars_small_4_half.png","url":"http://www.yelp.com/biz/la-folie-san-francisco","phone":"4157765577","snippet_text":"Pretty
+        Amazing food.  A french foodies dream.\n\nI started with the lobster corn
+        soup.  This was probably my favorite dish.  The lobster had a great smoky...","image_url":"http://s3-media1.ak.yelpcdn.com/bphoto/y-k7XjdUoYoXOSk22rYQzg/ms.jpg","categories":[["French","french"]],"display_phone":"+1-415-776-5577","rating_img_url_large":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/stars_large_4_half.png","id":"la-folie-san-francisco","is_closed":false,"location":{"cross_streets":"Green
+        St & Union St","city":"San Francisco","display_address":["2316 Polk St","(b/t
+        Green St & Union St)","Russian Hill","San Francisco, CA 94109"],"geo_accuracy":8,"neighborhoods":["Russian
+        Hill","Nob Hill"],"postal_code":"94109","country_code":"US","address":["2316
+        Polk St"],"coordinate":{"latitude":37.7974192,"longitude":-122.4221977},"state_code":"CA"}},{"is_claimed":false,"rating":4.5,"mobile_url":"http://m.yelp.com/biz/the-house-san-francisco","rating_img_url":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/stars_4_half.png","review_count":2245,"name":"The
         House","snippet_image_url":"http://s3-media1.ak.yelpcdn.com/photo/cfXfHw9dVkgAmFtGL81fJA/ms.jpg","rating_img_url_small":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/stars_small_4_half.png","url":"http://www.yelp.com/biz/the-house-san-francisco","phone":"4159868612","snippet_text":"Thank
         you Yelpers, all your reviews are great and so true!\n\nThe House was amazing.
         Although it is small, they have a small selection but a very good...","image_url":"http://s3-media1.ak.yelpcdn.com/bphoto/Qo-eoz8T9K0FqmEcEOndrA/ms.jpg","categories":[["Asian
@@ -239,14 +246,7 @@ http_interactions:
         St","city":"San Francisco","display_address":["1230 Grant Ave","(b/t Broadway
         St)","North Beach/Telegraph Hill","San Francisco, CA 94133"],"geo_accuracy":8,"neighborhoods":["North
         Beach/Telegraph Hill"],"postal_code":"94133","country_code":"US","address":["1230
-        Grant Ave"],"coordinate":{"latitude":37.798427799999999,"longitude":-122.4071081},"state_code":"CA"}},{"is_claimed":true,"rating":4.5,"mobile_url":"http://m.yelp.com/biz/la-folie-san-francisco","rating_img_url":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/stars_4_half.png","review_count":848,"name":"La
-        Folie","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/iHyXGcKKmTPWAqr2I4gV1w/ms.jpg","rating_img_url_small":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/stars_small_4_half.png","url":"http://www.yelp.com/biz/la-folie-san-francisco","phone":"4157765577","snippet_text":"Pretty
-        Amazing food.  A french foodies dream.\n\nI started with the lobster corn
-        soup.  This was probably my favorite dish.  The lobster had a great smoky...","image_url":"http://s3-media1.ak.yelpcdn.com/bphoto/y-k7XjdUoYoXOSk22rYQzg/ms.jpg","categories":[["French","french"]],"display_phone":"+1-415-776-5577","rating_img_url_large":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/stars_large_4_half.png","id":"la-folie-san-francisco","is_closed":false,"location":{"cross_streets":"Green
-        St & Union St","city":"San Francisco","display_address":["2316 Polk St","(b/t
-        Green St & Union St)","Russian Hill","San Francisco, CA 94109"],"geo_accuracy":8,"neighborhoods":["Russian
-        Hill","Nob Hill"],"postal_code":"94109","country_code":"US","address":["2316
-        Polk St"],"coordinate":{"latitude":37.7974192,"longitude":-122.4221977},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/r-and-g-lounge-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":2056,"name":"R
+        Grant Ave"],"coordinate":{"latitude":37.798427799999999,"longitude":-122.4071081},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/r-and-g-lounge-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":2057,"name":"R
         & G Lounge","snippet_image_url":"http://s3-media2.ak.yelpcdn.com/photo/Dwp3gKE62-TZOFLQ4hK4mw/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/r-and-g-lounge-san-francisco","phone":"4159827877","snippet_text":"R&G
         is always a good choice because of the food. I''ve veen here with local friends,
         with parents, and with out-of-town visitors - and the food is dependably...","image_url":"http://s3-media3.ak.yelpcdn.com/bphoto/XOz1bFjXZiWrtVS9EMlNew/ms.jpg","categories":[["Chinese","chinese"],["Lounges","lounges"]],"display_phone":"+1-415-982-7877","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"r-and-g-lounge-san-francisco","is_closed":false,"location":{"cross_streets":"Commercial
@@ -259,7 +259,7 @@ http_interactions:
         St & Taylor St","city":"San Francisco","display_address":["545 Francisco St","(b/t
         Mason St & Taylor St)","North Beach/Telegraph Hill","San Francisco, CA 94133"],"geo_accuracy":8,"neighborhoods":["North
         Beach/Telegraph Hill"],"postal_code":"94133","country_code":"US","address":["545
-        Francisco St"],"coordinate":{"latitude":37.804425999999999,"longitude":-122.41411600000001},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/quince-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":813,"name":"Quince","snippet_image_url":"http://s3-media1.ak.yelpcdn.com/photo/EqMBMMRu4k7MoXwsAvUfyw/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/quince-san-francisco","phone":"4157758500","snippet_text":"Took
+        Francisco St"],"coordinate":{"latitude":37.804425999999999,"longitude":-122.41411600000001},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/quince-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":814,"name":"Quince","snippet_image_url":"http://s3-media1.ak.yelpcdn.com/photo/EqMBMMRu4k7MoXwsAvUfyw/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/quince-san-francisco","phone":"4157758500","snippet_text":"Took
         my family here for my mom''s birthday.  This place did not disappoint.  All
         our dishes were superb!  I love love loved the foie gras!  The terrine had...","image_url":"http://s3-media2.ak.yelpcdn.com/bphoto/TooNL9Jh9-dxDwG-FB0rPw/ms.jpg","categories":[["Italian","italian"],["Mediterranean","mediterranean"]],"display_phone":"+1-415-775-8500","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"quince-san-francisco","is_closed":false,"location":{"cross_streets":"Osgood
         Pl & Montgomery St","city":"San Francisco","display_address":["470 Pacific
@@ -295,7 +295,14 @@ http_interactions:
         St & Van Ness Ave","city":"San Francisco","display_address":["1722 Sacramento
         St","(b/t Polk St & Van Ness Ave)","Nob Hill","San Francisco, CA 94109"],"geo_accuracy":8,"neighborhoods":["Nob
         Hill"],"postal_code":"94109","country_code":"US","address":["1722 Sacramento
-        St"],"coordinate":{"latitude":37.791569699999997,"longitude":-122.42147509999999},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/spruce-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":1016,"name":"Spruce","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/t7x-8RHWgLfDOl8ZMuDFBQ/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/spruce-san-francisco","phone":"4159315100","snippet_text":"great
+        St"],"coordinate":{"latitude":37.791569699999997,"longitude":-122.42147509999999},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/jeanne-d-arc-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":163,"name":"Jeanne
+        D''arc","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/WmJaGePSbJdPFpkCzSOZCw/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/jeanne-d-arc-san-francisco","phone":"4154213154","snippet_text":"Been
+        coming here for Bastille Day for nine years, count''em 9.\n\nAlways had a
+        good time.\n\nThe food is good, the staff friendly, the entertainment fun
+        if not...","image_url":"http://s3-media4.ak.yelpcdn.com/bphoto/OMFcYwUsLF0xNbMqjqVekA/ms.jpg","categories":[["French","french"]],"display_phone":"+1-415-421-3154","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"jeanne-d-arc-san-francisco","is_closed":false,"location":{"cross_streets":"Powell
+        St & Mason St","city":"San Francisco","display_address":["715 Bush St","(b/t
+        Powell St & Mason St)","Union Square","San Francisco, CA 94108"],"geo_accuracy":8,"neighborhoods":["Union
+        Square"],"postal_code":"94108","country_code":"US","address":["715 Bush St"],"coordinate":{"latitude":37.790031800000001,"longitude":-122.4092402},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/spruce-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":1016,"name":"Spruce","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/t7x-8RHWgLfDOl8ZMuDFBQ/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/spruce-san-francisco","phone":"4159315100","snippet_text":"great
         cocktails, delicious apps, and the most tender salmon and cod i''ve ever had.
         the duck was also amazing.\n\nthe only drawback for me was that the...","image_url":"http://s3-media2.ak.yelpcdn.com/bphoto/Pwy6ObM90ir6N5pVFFe7yA/ms.jpg","categories":[["American
         (New)","newamerican"]],"display_phone":"+1-415-931-5100","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"spruce-san-francisco","is_closed":false,"location":{"cross_streets":"Locust
@@ -309,14 +316,7 @@ http_interactions:
         St & Union St","city":"San Francisco","display_address":["2327 Polk St","(b/t
         Green St & Union St)","Russian Hill","San Francisco, CA 94109"],"geo_accuracy":8,"neighborhoods":["Russian
         Hill","Nob Hill"],"postal_code":"94109","country_code":"US","address":["2327
-        Polk St"],"coordinate":{"latitude":37.798287600000002,"longitude":-122.4222657},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/jeanne-d-arc-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":163,"name":"Jeanne
-        D''arc","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/WmJaGePSbJdPFpkCzSOZCw/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/jeanne-d-arc-san-francisco","phone":"4154213154","snippet_text":"Been
-        coming here for Bastille Day for nine years, count''em 9.\n\nAlways had a
-        good time.\n\nThe food is good, the staff friendly, the entertainment fun
-        if not...","image_url":"http://s3-media4.ak.yelpcdn.com/bphoto/OMFcYwUsLF0xNbMqjqVekA/ms.jpg","categories":[["French","french"]],"display_phone":"+1-415-421-3154","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"jeanne-d-arc-san-francisco","is_closed":false,"location":{"cross_streets":"Powell
-        St & Mason St","city":"San Francisco","display_address":["715 Bush St","(b/t
-        Powell St & Mason St)","Union Square","San Francisco, CA 94108"],"geo_accuracy":8,"neighborhoods":["Union
-        Square"],"postal_code":"94108","country_code":"US","address":["715 Bush St"],"coordinate":{"latitude":37.790031800000001,"longitude":-122.4092402},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/isa-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":1232,"name":"Isa","snippet_image_url":"http://s3-media2.ak.yelpcdn.com/photo/cSHTdG0OTqGr3yaWy0Vd1g/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/isa-san-francisco","phone":"4155679588","snippet_text":"I
+        Polk St"],"coordinate":{"latitude":37.798287600000002,"longitude":-122.4222657},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/isa-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":1232,"name":"Isa","snippet_image_url":"http://s3-media2.ak.yelpcdn.com/photo/cSHTdG0OTqGr3yaWy0Vd1g/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/isa-san-francisco","phone":"4155679588","snippet_text":"I
         came here for my NYE dinner. They had a pre fixe for $50, comes with four
         courses, and they were of great quality. The restaurant is just adorable.
         Very...","image_url":"http://s3-media4.ak.yelpcdn.com/bphoto/Pd9OoIT1fflvigaZ5RiqAg/ms.jpg","categories":[["French","french"]],"display_phone":"+1-415-567-9588","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"isa-san-francisco","is_closed":false,"location":{"cross_streets":"Chestnut
@@ -336,29 +336,27 @@ http_interactions:
         not even think about coming here. This place is tucked away behind the...","image_url":"http://s3-media4.ak.yelpcdn.com/bphoto/TruPuYz9N_gfQoc2EibB9A/ms.jpg","categories":[["Seafood","seafood"]],"display_phone":"+1-415-771-4383","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"scomas-restaurant-san-francisco","is_closed":false,"location":{"city":"San
         Francisco","display_address":["Pier 47","Al Scoma Way","Fisherman''s Wharf","San
         Francisco, CA 94133"],"geo_accuracy":9,"neighborhoods":["Fisherman''s Wharf"],"postal_code":"94133","country_code":"US","address":["Pier
-        47","Al Scoma Way"],"coordinate":{"latitude":37.808088669436103,"longitude":-122.417821884155},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/trattoria-contadina-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":592,"name":"Trattoria
+        47","Al Scoma Way"],"coordinate":{"latitude":37.808088669436103,"longitude":-122.417821884155},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/greens-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":1045,"name":"Greens","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/VM62qNxr8-3unYXFt3lC_g/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/greens-san-francisco","phone":"4157716222","snippet_text":"I
+        went here for a birthday party last week.  The food was excellent and the
+        service was very attentive (without being pushy).  You can''t beat the ambiance...","image_url":"http://s3-media3.ak.yelpcdn.com/bphoto/kZAkqkBkdyTneNp0VvF-bQ/ms.jpg","categories":[["Vegetarian","vegetarian"]],"display_phone":"+1-415-771-6222","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"greens-san-francisco","is_closed":false,"location":{"city":"San
+        Francisco","display_address":["Fort Mason","Bldg A","Marina/Cow Hollow","San
+        Francisco, CA 94123"],"geo_accuracy":9,"neighborhoods":["Marina/Cow Hollow"],"postal_code":"94123","country_code":"US","address":["Fort
+        Mason","Bldg A"],"coordinate":{"latitude":37.806105000000002,"longitude":-122.43159799999999},"state_code":"CA"}},{"is_claimed":false,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/franchino-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":508,"name":"Franchino","snippet_image_url":"http://s3-media1.ak.yelpcdn.com/photo/VstScDUPklUeczHaBz6kwA/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/franchino-san-francisco","phone":"4159822157","snippet_text":"Seriously
+        the best pasta my boyfriend and i have ever had, and we''ve had alot of pasta
+        in our lifetimes! Boyfriend specially ordered Penne pasta with...","image_url":"http://s3-media2.ak.yelpcdn.com/bphoto/PQupJhGVIyKBc17UbSbjaw/ms.jpg","categories":[["Italian","italian"]],"display_phone":"+1-415-982-2157","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"franchino-san-francisco","is_closed":false,"location":{"cross_streets":"Grant
+        Ave & Vallejo St","city":"San Francisco","display_address":["347 Columbus
+        Ave","(b/t Grant Ave & Vallejo St)","North Beach/Telegraph Hill","San Francisco,
+        CA 94133"],"geo_accuracy":8,"neighborhoods":["North Beach/Telegraph Hill"],"postal_code":"94133","country_code":"US","address":["347
+        Columbus Ave"],"coordinate":{"latitude":37.798454999999997,"longitude":-122.407578},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/trattoria-contadina-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":592,"name":"Trattoria
         Contadina","snippet_image_url":"http://s3-media2.ak.yelpcdn.com/photo/QcSWJhuW5EFJNLJq2Fx7Pw/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/trattoria-contadina-san-francisco","phone":"4159825728","snippet_text":"I
         lived in North Beach for 10 months and this is the one and only Italian restaurant
         I''m even going to bother recommending. The atmosphere is not ''trendy''...","image_url":"http://s3-media3.ak.yelpcdn.com/bphoto/vHbKR7yx4lmjfGX8-LwnXg/ms.jpg","categories":[["Italian","italian"]],"display_phone":"+1-415-982-5728","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"trattoria-contadina-san-francisco","is_closed":false,"location":{"cross_streets":"Kent
         St & Union St","city":"San Francisco","display_address":["1800 Mason St","(b/t
         Kent St & Union St)","North Beach/Telegraph Hill","San Francisco, CA 94133"],"geo_accuracy":8,"neighborhoods":["North
         Beach/Telegraph Hill"],"postal_code":"94133","country_code":"US","address":["1800
-        Mason St"],"coordinate":{"latitude":37.800063600000001,"longitude":-122.4124182},"state_code":"CA"}},{"is_claimed":true,"rating":4.5,"mobile_url":"http://m.yelp.com/biz/allegro-romano-san-francisco","rating_img_url":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/stars_4_half.png","review_count":253,"name":"Allegro
-        Romano","snippet_image_url":"http://s3-media4.ak.yelpcdn.com/photo/pfM_2_oJFeEx32VE7wC4MQ/ms.jpg","rating_img_url_small":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/stars_small_4_half.png","url":"http://www.yelp.com/biz/allegro-romano-san-francisco","phone":"4159284002","snippet_text":"Came
-        here for my b''day dinner and by far the BEST Italian food I''ve had.\n\nIt''s
-        tucked away from the busy city and has such a cute vibe to this place. It''s
-        a...","image_url":"http://s3-media4.ak.yelpcdn.com/bphoto/sals3F8htXK3N97zh9_1ag/ms.jpg","categories":[["Italian","italian"],["Seafood","seafood"]],"display_phone":"+1-415-928-4002","rating_img_url_large":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/stars_large_4_half.png","id":"allegro-romano-san-francisco","is_closed":false,"location":{"cross_streets":"Broadway
-        St & Glover St","city":"San Francisco","display_address":["1701 Jones St","(b/t
-        Broadway St & Glover St)","Russian Hill","San Francisco, CA 94109"],"geo_accuracy":8,"neighborhoods":["Russian
-        Hill","Nob Hill"],"postal_code":"94109","country_code":"US","address":["1701
-        Jones St"],"coordinate":{"latitude":37.7969182,"longitude":-122.41538799999999},"state_code":"CA"}},{"is_claimed":true,"rating":4.0,"mobile_url":"http://m.yelp.com/biz/greens-san-francisco","rating_img_url":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/stars_4.png","review_count":1045,"name":"Greens","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/VM62qNxr8-3unYXFt3lC_g/ms.jpg","rating_img_url_small":"http://s3-media2.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/stars_small_4.png","url":"http://www.yelp.com/biz/greens-san-francisco","phone":"4157716222","snippet_text":"I
-        went here for a birthday party last week.  The food was excellent and the
-        service was very attentive (without being pushy).  You can''t beat the ambiance...","image_url":"http://s3-media3.ak.yelpcdn.com/bphoto/kZAkqkBkdyTneNp0VvF-bQ/ms.jpg","categories":[["Vegetarian","vegetarian"]],"display_phone":"+1-415-771-6222","rating_img_url_large":"http://s3-media4.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/stars_large_4.png","id":"greens-san-francisco","is_closed":false,"location":{"city":"San
-        Francisco","display_address":["Fort Mason","Bldg A","Marina/Cow Hollow","San
-        Francisco, CA 94123"],"geo_accuracy":9,"neighborhoods":["Marina/Cow Hollow"],"postal_code":"94123","country_code":"US","address":["Fort
-        Mason","Bldg A"],"coordinate":{"latitude":37.806105000000002,"longitude":-122.43159799999999},"state_code":"CA"}}]}'
+        Mason St"],"coordinate":{"latitude":37.800063600000001,"longitude":-122.4124182},"state_code":"CA"}}]}'
     http_version: 
-  recorded_at: Tue, 14 Aug 2012 21:12:09 GMT
+  recorded_at: Tue, 14 Aug 2012 23:55:31 GMT
 - request:
     method: get
     uri: http://api.yelp.com/v2/search?ll=37.788022,-122.399797
@@ -371,9 +369,9 @@ http_interactions:
       User-Agent:
       - OAuth gem v0.4.6
       Authorization:
-      - OAuth oauth_consumer_key="zeUN39MhQwBCAON4gsji-g", oauth_nonce="t2aTGDTs0g1G8pY58E6Adlq2mcUOYbjUiCjS1RM4",
-        oauth_signature="HEHEx02ThhkyGHXMAEYCL6ha%2BPg%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1344978729", oauth_token="7RIJttUGVq6-OD3mvqXbFWjSAOICXPwX",
+      - OAuth oauth_consumer_key="zeUN39MhQwBCAON4gsji-g", oauth_nonce="SmTuAorOGrlB8A7zcktmCY2Ep01NNqFaUhyGXQQJDE",
+        oauth_signature="CcBLlGqMrWFvSsPisPjjVcEJNC0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1344988531", oauth_token="7RIJttUGVq6-OD3mvqXbFWjSAOICXPwX",
         oauth_version="1.0"
   response:
     status:
@@ -381,15 +379,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 14 Aug 2012 21:12:10 GMT
+      - Tue, 14 Aug 2012 23:55:32 GMT
       Server:
       - Apache
       X-Node:
-      - web30, wsgi, api_com
+      - web41, wsgi, api_com
       Cache-Control:
       - private
       Set-Cookie:
-      - bse=f2ccee3732f0e3aa006f08fd5376cf72; Path=/; HttpOnly
+      - bse=1ba94671c048995dfefb295884bec886; Path=/; HttpOnly
       Content-Length:
       - '33637'
       Vary:
@@ -401,10 +399,10 @@ http_interactions:
       X-Mode:
       - rw
       X-Proxied:
-      - lb2
+      - lb1
     body:
       encoding: US-ASCII
-      string: ! '{"region":{"span":{"latitude_delta":0.0032288300000118397,"longitude_delta":0.0079834699999992154},"center":{"latitude":37.78857335,"longitude":-122.40001445}},"total":10492,"businesses":[{"is_claimed":false,"distance":119.99597472341455,"mobile_url":"http://m.yelp.com/biz/the-economist-san-francisco","rating_img_url":"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/stars_5.png","review_count":41,"name":"The
+      string: ! '{"region":{"span":{"latitude_delta":0.0032288300000118397,"longitude_delta":0.0079834699999992154},"center":{"latitude":37.78857335,"longitude":-122.40001445}},"total":10495,"businesses":[{"is_claimed":false,"distance":119.99597472341455,"mobile_url":"http://m.yelp.com/biz/the-economist-san-francisco","rating_img_url":"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/stars_5.png","review_count":41,"name":"The
         Economist","snippet_image_url":"http://s3-media4.ak.yelpcdn.com/photo/VZp1NNLKUA2DnQ5j60RKsg/ms.jpg","rating":5.0,"url":"http://www.yelp.com/biz/the-economist-san-francisco","location":{"cross_streets":"Aldrich
         Aly & Mission St","city":"San Francisco","display_address":["90 New Montgomery
         St","(b/t Aldrich Aly & Mission St)","SOMA","San Francisco, CA 94105"],"geo_accuracy":8,"neighborhoods":["SOMA"],"postal_code":"94105","country_code":"US","address":["90
@@ -583,7 +581,7 @@ http_interactions:
         since then. Let''s face it, waxing is no fun but it''s as good as it gets...","image_url":"http://s3-media4.ak.yelpcdn.com/bphoto/rKYee1-e_UyvRSR0PzTNeA/ms.jpg","categories":[["Skin
         Care","skincare"],["Massage","massage"],["Hair Removal","hairremoval"]],"display_phone":"+1-415-828-6807","rating_img_url_large":"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/stars_large_5.png","id":"estia-skincare-san-francisco","is_closed":false,"rating_img_url_small":"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/stars_small_5.png"}]}'
     http_version: 
-  recorded_at: Tue, 14 Aug 2012 21:12:10 GMT
+  recorded_at: Tue, 14 Aug 2012 23:55:32 GMT
 - request:
     method: get
     uri: http://api.yelp.com/v2/search?cll=37.7627,122.4352&location=Castro,%20San%20Francisco
@@ -596,9 +594,9 @@ http_interactions:
       User-Agent:
       - OAuth gem v0.4.6
       Authorization:
-      - OAuth oauth_consumer_key="zeUN39MhQwBCAON4gsji-g", oauth_nonce="vOTy4eBwk3nGtmngUUwL5F0uaf6INoIf982K8PeU4",
-        oauth_signature="vmycJndxi61JwUEqiYL9KctHBqg%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1344978730", oauth_token="7RIJttUGVq6-OD3mvqXbFWjSAOICXPwX",
+      - OAuth oauth_consumer_key="zeUN39MhQwBCAON4gsji-g", oauth_nonce="bJkj2C2Toflz9gnRhYAb4ESTfB9Z43z1K2hg8XBUmw",
+        oauth_signature="py0KjUXHi2xIzmRYgoYcDcQnJLo%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1344988532", oauth_token="7RIJttUGVq6-OD3mvqXbFWjSAOICXPwX",
         oauth_version="1.0"
   response:
     status:
@@ -606,15 +604,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 14 Aug 2012 21:12:10 GMT
+      - Tue, 14 Aug 2012 23:55:32 GMT
       Server:
       - Apache
       X-Node:
-      - web31, wsgi, api_com
+      - web38, wsgi, api_com
       Cache-Control:
       - private
       Set-Cookie:
-      - bse=f2e1417011739b6093ad214d61a863bc; Path=/; HttpOnly
+      - bse=27d1b7ae64b1e01d778c196db9870c8d; Path=/; HttpOnly
       Content-Length:
       - '33077'
       Vary:
@@ -626,10 +624,10 @@ http_interactions:
       X-Mode:
       - rw
       X-Proxied:
-      - lb2
+      - lb1
     body:
       encoding: US-ASCII
-      string: ! '{"region":{"span":{"latitude_delta":0.015605919999998719,"longitude_delta":0.0098054000000047381},"center":{"latitude":37.761629400000004,"longitude":-122.431865}},"total":2528,"businesses":[{"is_claimed":false,"rating":5.0,"mobile_url":"http://m.yelp.com/biz/level-6-shredding-san-francisco-2","rating_img_url":"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/stars_5.png","review_count":107,"name":"Level
+      string: ! '{"region":{"span":{"latitude_delta":0.015605919999998719,"longitude_delta":0.0098054000000047381},"center":{"latitude":37.761629400000004,"longitude":-122.431865}},"total":2529,"businesses":[{"is_claimed":false,"rating":5.0,"mobile_url":"http://m.yelp.com/biz/level-6-shredding-san-francisco-2","rating_img_url":"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/stars_5.png","review_count":107,"name":"Level
         6 Shredding","snippet_image_url":"http://s3-media3.ak.yelpcdn.com/photo/B50Kh_Yw_SbHdqtqRY2HGw/ms.jpg","rating_img_url_small":"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/stars_small_5.png","url":"http://www.yelp.com/biz/level-6-shredding-san-francisco-2","phone":"4153411003","snippet_text":"Curb
         your enthusiasm?\nFive of my clients are regular customers of Level 6 - you
         won''t find a more professional team - in the Bay Area.\nLevel 6 Shredding...","image_url":"http://s3-media1.ak.yelpcdn.com/bphoto/Bajq1NnYj4queV8aoEglzw/ms.jpg","categories":[["Local
@@ -797,5 +795,5 @@ http_interactions:
         Hartford St & Castro St)","Castro","San Francisco, CA 94114"],"geo_accuracy":8,"neighborhoods":["Castro"],"postal_code":"94114","country_code":"US","address":["4051
         18th St"],"coordinate":{"latitude":37.760840799999997,"longitude":-122.4340033},"state_code":"CA"}}]}'
     http_version: 
-  recorded_at: Tue, 14 Aug 2012 21:12:10 GMT
+  recorded_at: Tue, 14 Aug 2012 23:55:32 GMT
 recorded_with: VCR 2.2.4

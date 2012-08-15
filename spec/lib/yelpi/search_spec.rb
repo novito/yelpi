@@ -12,10 +12,10 @@ describe Yelpi::Search do
     VCR.eject_cassette
   end
 
-  it "should accept requests with a term and location" do
+  it "should be able to retrieve business by a term" do
     term = 'restaurants'
     location = 'San Francisco'
-    @search.general({:term => term, :location => location})
+    results = @search.fetch({:term => term, :location => location})
   end
 
   it "should accept geolocation parameters" do

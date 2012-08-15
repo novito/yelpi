@@ -1,20 +1,15 @@
 module Yelpi
   class Search
 
-    @base_url = "/v2/search"
-    class << self
-      attr_accessor :base_url 
-    end
-
-    attr_accessor :client
+    BASE_URL = "/v2/search"
 
     def initialize(client)
       @client = client
     end
 
-    def general(options = {})
+    def fetch(options = {})
       url_params = parametrize(options)
-      results = @client.access_token.get(Yelpi::Search.base_url + "?" + url_params).body
+      results = @client.access_token.get(BASE_URL + "?" + url_params).body
       return JSON.parse(results)
     end
 
@@ -23,10 +18,10 @@ module Yelpi
 	box_params = "#{options.delete(:sw_latitude).to_s},#{options.delete(:sw_longitude).to_s}|#{options.delete(:ne_latitude).to_s},#{options.delete(:ne_longitude).to_s}"
 	options.merge!({:bounds => box_params})  
 	url_params = parametrize(options)
-	results = @client.access_token.get(Yelpi::Search.base_url + "?" + url_params).body
+	results = @client.access_token.get(BASE_URL + "?" + url_params).body
 	return JSON.parse(results)
       else
-	nil
+	raise ArgumentError "The following arguments are mandatory: :sw_latitude, :sw_longitude, :ne_latitude, :ne_longitude"
       end
     end
 
@@ -45,10 +40,10 @@ module Yelpi
 	end
       options.merge!({:ll => geo_params})  
       url_params = parametrize(options)
-      results = @client.access_token.get(Yelpi::Search.base_url + "?" + url_params).body
+      results = @client.access_token.get(BASE_URL + "?" + url_params).body
       return JSON.parse(results)
       else
-	nil
+	raise ArgumentError "The following arguments are mandatory: :latitude, :longitude"
       end
     end
 
@@ -58,11 +53,11 @@ module Yelpi
 	  geo_params = "#{options.delete(:latitude).to_s},#{options.delete(:longitude).to_s}" 
 	  options.merge!({:cll => geo_params})
 	  url_params = parametrize(options)
-	  results = @client.access_token.get(Yelpi::Search.base_url + "?" + url_params).body
+	  results = @client.access_token.get(BASE_URL + "?" + url_params).body
 	  return JSON.parse(results)
 	end
       else
-	nil
+	raise ArgumentError "The following arguments is mandatory: :location"
       end
     end
 

@@ -20,16 +20,16 @@ describe Yelpi::Configuration do
     Yelpi.token_secret.should eql Yelpi::Configuration::TOKEN_SECRET
   end
 
-  describe '.configure' do
-    Yelpi::Configuration::VALID_CONFIG_KEYS.each do |key|
-      it "should set the #{key}" do 
-        Yelpi.configure do |config|
-          config.send("#{key}=", key)
-          Yelpi.send(key).should eql key
-        end
-      end
-    end
-  end
+#  describe '.configure' do
+    #Yelpi::Configuration::VALID_CONFIG_KEYS.each do |key|
+      #it "should set the #{key}" do 
+        #Yelpi.configure do |config|
+          #config.send("#{key}=", key)
+          #Yelpi.send(key).should eql key
+        #end
+      #end
+    #end
+  #end
 
 end
 
