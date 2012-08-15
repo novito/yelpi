@@ -50,10 +50,10 @@ module Yelpi
 	if options.has_key?(:latitude) && options.has_key?(:longitude)
 	  geo_params = "#{options.delete(:latitude).to_s},#{options.delete(:longitude).to_s}" 
 	  options.merge!({:cll => geo_params})
-	  url_params = parametrize(options)
-	  results = @client.access_token.get(BASE_URL + "?" + url_params).body
-	  return JSON.parse(results)
 	end
+	url_params = parametrize(options)
+	results = @client.access_token.get(BASE_URL + "?" + url_params).body
+	return JSON.parse(results)
       else
 	raise ArgumentError.new "The following arguments is mandatory: :location"
       end

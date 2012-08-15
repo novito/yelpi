@@ -39,10 +39,39 @@ describe Yelpi::Search do
   end
 
   describe 'geographic coordinate search' do
+    before do
+      @latitude = 37.788022 
+      @longitude = -122.399797 
+      @accuracy = 10
+    end
+    it "should reject the request if longitude is not present" do
+      expect { @search.by_geo_coordinate({:latitude => @latitude }) }.to raise_error(ArgumentError)
+    end
     it "should reject the request if latitude is not present" do
-      pending
+      expect { @search.by_geo_coordinate({:longitude => @longitude }) }.to raise_error(ArgumentError)
+    end
+    it "should return businesses if latitude and longitude are present" do
+      results = @search.by_geo_coordinate({:longitude => @longitude, :latitude => @latitude })
+      results.should have_key("businesses")
+      results["businesses"].should_not be_empty
     end
   end
+
+  describe 'location search' do
+    before do
+      @location = 'Castro, San Francisco' 
+      @term = 'restaurants'
+    end
+    it "should reject the request if location is not present" do
+      expect { @search.by_location({:term => @term }) }.to raise_error(ArgumentError)
+    end
+    it "should return businesses if location is present" do
+      results = @search.by_location({:location => @location})
+      results.should have_key("businesses")
+      results["businesses"].should_not be_empty
+    end
+  end
+
 
 end
 
