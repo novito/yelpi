@@ -2,7 +2,7 @@ require "yaml"
 
 module Yelpi
   module Configuration
-    config = YAML::load(File.dirname(File.expand_path(__FILE__)) + '/config.yml')
+    config = YAML::load_file(File.dirname(File.expand_path(__FILE__)) + '/config.yml')
     ENDPOINT = 'http://api.yelp.com' 
     CONSUMER_KEY = config['consumer_key'] 
     CONSUMER_SECRET = config['consumer_secret']  
