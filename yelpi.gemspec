@@ -11,8 +11,12 @@ Gem::Specification.new do |s|
   s.homepage    = ""
   s.summary     = %q{Yelp v2.0 API}
   s.description = %q{Wrapper to interact with the Yelp's v2.0 API (via OAuth).}
+  s.homepage = 'https://github.com/novito/yelpi'
   
   s.add_development_dependency "rspec"
+  s.add_development_dependency "webmock"
+  s.add_development_dependency "vcr"
+  s.add_development_dependency "rake"
 
   s.rubyforge_project = "yelpi"
 
