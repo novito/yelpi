@@ -12,22 +12,22 @@ http_interactions:
       User-Agent: 
       - OAuth gem v0.4.6
       Authorization: 
-      - OAuth oauth_nonce="DrW5plfHSryvTkcILae0KdkhizDegCfrjdGOkuDV4", oauth_signature="3jwfO6QC8dyRwY2RuPVTcCR44ts%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1345573489", oauth_version="1.0"
+      - OAuth oauth_nonce="8QUq8KekoxY4xHLeGnPbyU1dx5o6iF8MjVTjDuQ7is", oauth_signature="uA%2FdpuVMkB2QuDbaBAwdpnIxsKI%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1345574070", oauth_version="1.0"
   response: 
     status: 
       code: 400
       message: Bad Request
     headers: 
       Date: 
-      - Tue, 21 Aug 2012 18:24:49 GMT
+      - Tue, 21 Aug 2012 18:34:30 GMT
       Server: 
       - Apache
       X-Node: 
-      - web35, wsgi, api_com
+      - web38, wsgi, api_com
       Cache-Control: 
       - private
       Set-Cookie: 
-      - bse=8c6c86549e9bf5d8f2ec999473e8e561; Path=/; HttpOnly
+      - bse=c207050dd2ba012b58f6cd566236c3f3; Path=/; HttpOnly
       Content-Length: 
       - "120"
       Vary: 
@@ -44,7 +44,7 @@ http_interactions:
       encoding: US-ASCII
       string: "{\"error\":{\"text\":\"One or more parameters are missing in request\",\"id\":\"MISSING_PARAMETER\",\"field\":\"oauth_consumer_key\"}}"
     http_version: 
-  recorded_at: Tue, 21 Aug 2012 18:24:49 GMT
+  recorded_at: Tue, 21 Aug 2012 18:34:30 GMT
 - request: 
     method: get
     uri: http://api.yelp.com/v2/search?ll=37.788022,-122.399797
@@ -57,22 +57,22 @@ http_interactions:
       User-Agent: 
       - OAuth gem v0.4.6
       Authorization: 
-      - OAuth oauth_nonce="Pdq5cSh1bSWXQm9oiu6auYCDl2nzm2EC6WD5gYQCFQ", oauth_signature="sXBFP52mW7ZEkaTKqV6XK9BGbHg%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1345573489", oauth_version="1.0"
+      - OAuth oauth_nonce="iPMg8PGk1xCOSa0xspV6hEfEANCole8h3Ul2f5gL34", oauth_signature="lNE4DNhUljF%2FY7Ax6voqoEajlkc%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1345574070", oauth_version="1.0"
   response: 
     status: 
       code: 400
       message: Bad Request
     headers: 
       Date: 
-      - Tue, 21 Aug 2012 18:24:49 GMT
+      - Tue, 21 Aug 2012 18:34:30 GMT
       Server: 
       - Apache
       X-Node: 
-      - web35, wsgi, api_com
+      - web40, wsgi, api_com
       Cache-Control: 
       - private
       Set-Cookie: 
-      - bse=a7ae8cb946cf1b9173c9b98072538692; Path=/; HttpOnly
+      - bse=3c38a10a54b42eb02741471f617f0829; Path=/; HttpOnly
       Content-Length: 
       - "120"
       Vary: 
@@ -89,7 +89,7 @@ http_interactions:
       encoding: US-ASCII
       string: "{\"error\":{\"text\":\"One or more parameters are missing in request\",\"id\":\"MISSING_PARAMETER\",\"field\":\"oauth_consumer_key\"}}"
     http_version: 
-  recorded_at: Tue, 21 Aug 2012 18:24:49 GMT
+  recorded_at: Tue, 21 Aug 2012 18:34:30 GMT
 - request: 
     method: get
     uri: http://api.yelp.com/v2/search?location=Castro,%20San%20Francisco
@@ -102,22 +102,22 @@ http_interactions:
       User-Agent: 
       - OAuth gem v0.4.6
       Authorization: 
-      - OAuth oauth_nonce="NbfM2bJiwweHCwe5BoKUWx5Ke7XqjhVirjHafcIqBe8", oauth_signature="qZV3iDjtRbgjNH1QAGoXFHKslqk%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1345573489", oauth_version="1.0"
+      - OAuth oauth_nonce="kzeFyuqJppsjsjNS5DCPlRYpNzLUtrQ4M3GhLqYgmU", oauth_signature="5aeaG%2Fu67W8crPsa%2FRN4TW0c1G8%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1345574070", oauth_version="1.0"
   response: 
     status: 
       code: 400
       message: Bad Request
     headers: 
       Date: 
-      - Tue, 21 Aug 2012 18:24:49 GMT
+      - Tue, 21 Aug 2012 18:34:30 GMT
       Server: 
       - Apache
       X-Node: 
-      - web33, wsgi, api_com
+      - web39, wsgi, api_com
       Cache-Control: 
       - private
       Set-Cookie: 
-      - bse=0c24838b6afb16d516c1110aae7e8f63; Path=/; HttpOnly
+      - bse=a6a783a798174f520da9dae0007564fc; Path=/; HttpOnly
       Content-Length: 
       - "120"
       Vary: 
@@ -134,5 +134,5 @@ http_interactions:
       encoding: US-ASCII
       string: "{\"error\":{\"text\":\"One or more parameters are missing in request\",\"id\":\"MISSING_PARAMETER\",\"field\":\"oauth_consumer_key\"}}"
     http_version: 
-  recorded_at: Tue, 21 Aug 2012 18:24:49 GMT
+  recorded_at: Tue, 21 Aug 2012 18:34:30 GMT
 recorded_with: VCR 2.2.4
