@@ -1,10 +1,10 @@
 module Yelpi
   module Configuration
     ENDPOINT = 'http://api.yelp.com' 
-    CONSUMER_KEY = 'zeUN39MhQwBCAON4gsji-g'
-    CONSUMER_SECRET = 'kpOWMWFmxt0xVdE2Qfhsc---q8M'
-    TOKEN = '7RIJttUGVq6-OD3mvqXbFWjSAOICXPwX'
-    TOKEN_SECRET = '1r82_xlhvOUZ0J2784A0ojWvs-A'
+    CONSUMER_KEY = nil 
+    CONSUMER_SECRET = nil 
+    TOKEN = nil 
+    TOKEN_SECRET = nil 
     
     VALID_CONFIG_KEYS = [:endpoint, :consumer_key, :consumer_secret, :token, :token_secret]
 
