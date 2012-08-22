@@ -9,11 +9,13 @@ A Ruby wrapper for the Yelp API (v2.0 ~ OAuth).
 
 ## How to Use
 
-  1. Add your configuration keys
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
+  1. Add your API keys
+
+    Yelpi.configure do |config|
+      config.consumer_key = YOUR_CONSUMER_KEY
+      config.consumer_secret = YOUR_CONSUMER_SECRET
+      config.oauth_token = YOUR_OAUTH_TOKEN
+      config.oauth_token_secret = YOUR_OAUTH_TOKEN_SECRET
+    end
 
 
