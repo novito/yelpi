@@ -1,1 +1,2 @@
 lib/yelpi/config.yml
+spec/fixtures/yelpi_cassetes/*

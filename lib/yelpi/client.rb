@@ -10,7 +10,7 @@ module Yelpi
       Configuration::VALID_CONFIG_KEYS.each do |key|
         instance_variable_set("@#{key}".to_sym, merged_options[key])
       end
-
+     
       # Initialize Consumer and Access Token
       @consumer = OAuth::Consumer.new(@consumer_key,@consumer_secret,{:site => @endpoint})
       @access_token = OAuth::AccessToken.new(@consumer, @token, @token_secret)
